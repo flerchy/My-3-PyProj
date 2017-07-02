@@ -2,7 +2,7 @@ import re
 
 def MyAnotherFunction():
     Variable = re.compile(r"123")
-    print(type(Variable))
+    print(type(Variable)    )
     return 0
 
 

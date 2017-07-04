@@ -3,7 +3,11 @@ import nltk
 def main_func():
     a = new_func(25)
     print(a)
-    i_dont_care_you_suck()
+    for i in range(1,2):
+        for j in range(2,5):
+            for k in range(5,6):
+                for l in range(1,j):
+                    i_dont_care_you_suck()
     return 0
 
 def new_func(a):
